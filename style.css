@@ -76,7 +76,6 @@ h2 {
   padding: 10% 20% 3% 20%;
   min-height: 100vh;
   height: auto;
-  min-width: 100vw;
   width: 100%;
   background: url("images/header/Layer.jpg");
   -moz-background-size: cover;
@@ -155,7 +154,7 @@ h2 {
   height: 5vw;
   border: 0;
   z-index: 2;
-  top: -3vw;
+  top: -2.5vw;
   bottom: 0;
   left: 25%;
   right: 0;
