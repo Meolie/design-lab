@@ -339,11 +339,32 @@ h1, h2 {
 
 
 @media (max-width: 800px) {
+
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .about-us .content .white-block,
+    .services .content .white-block, 
+    .what-we-do .content .white-block, 
+    .contact-us .content .white-block
+    {
+        width: 50vw;
+    }
+
     .about-us, 
     .services, 
     .what-we-do, 
     .contact-us {
         padding: 10% 0 7% 0;
+
+        .white-block {
+
+            h1 {
+                font-size: 2rem;
+                margin: 0;
+            }
+        }
     }
 
     .links {
@@ -368,5 +389,30 @@ h1, h2 {
     }
 
 
+}
 
+
+@media (max-width: 500px) {
+    .header h1 {
+        font-size: 0.9rem;
+    }
+
+    .links .single-link h2 {
+        font-size: 0.9rem;
+    }
+
+    .about-us .white-block h1, 
+    .services .white-block h1, 
+    .what-we-do .white-block h1, 
+    .contact-us .white-block h1 {
+        font-size: 1.3rem;
+    }
+
+    .contact-us a, 
+    .contact-us a:active, 
+    .contact-us a:hover, 
+    .contact-us a:visited
+    {
+        padding: 1rem 4rem;
+    }
 }
